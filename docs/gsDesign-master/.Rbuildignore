@@ -1,0 +1,11 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.gitattributes$
+^_pkgdown\.yml$
+^pkgdown$
+^\.github$
+^codecov\.yml$
+^cran-comments\.md$
+^revdep$
+tests/benchmarks
+tests/testthat/_snaps$

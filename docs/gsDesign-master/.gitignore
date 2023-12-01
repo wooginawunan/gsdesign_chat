@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/doc
+*.o
+*.so
+*.dll
+TODO
+.DS_Store
+*.pdf
+*.html
+*.rnw
+docs/
+vignettes/*.html
+vignettes/*.R
