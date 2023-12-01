@@ -1,0 +1,144 @@
+url: https://keaven.github.io/gsDesign/
+
+template:
+  bootstrap: 5
+
+reference:
+- title: Group Sequential Computation
+  desc: >
+    For an overview of the gsDesign package, see
+    `vignette("gsDesignPackageOverview")`.
+  contents:
+  - gsDesign
+  - plot.gsDesign
+  - gsProbability
+  - gsBound1
+  - gsBound
+  - sequentialPValue
+- title: Design Characterization
+  contents:
+  - gsBoundSummary
+  - print.gsBoundSummary
+  - gsDelta
+  - xtable
+  - xprint
+- title: Normal Endpoint Design
+  contents:
+  - nNormal
+- title: Binomial Endpoint Design
+  contents:
+  - nBinomial
+  - gsRR
+  - simBinomial
+  - testBinomial
+  - varBinomial
+  - ciBinomial
+- title: Time-to-Event Endpoint Design
+  contents:
+  - nEvents
+  - nSurv
+  - gsSurv
+  - nSurvival
+  - gsHR
+  - zn2hr
+  - hrn2z
+  - hrz2n
+  - eEvents
+  - nEventsIA
+  - tEventsIA
+  - toInteger
+- title: Vaccine/Prevention Efficacy
+  contents:
+  - toBinomialExact
+- title: Spending Functions
+  desc: >
+    For an overview of spending functions, see
+    `vignette("SpendingFunctionOverview")`.
+  contents:
+  - spendingFunction
+  - summary.spendfn
+  - sfLDPocock
+  - sfLDOF
+  - sfHSD
+  - sfPower
+  - sfExponential
+  - sfNormal
+  - sfCauchy
+  - sfTDist
+  - sfLogistic
+  - sfBetaDist
+  - sfExtremeValue
+  - sfExtremeValue2
+  - sfLinear
+  - sfStep
+  - sfPoints
+  - sfTrimmed
+  - sfTruncated
+  - sfGapped
+- title: Conditional and Predictive Power
+  contents:
+  - gsCP
+  - gsCPz
+  - gsBoundCP
+  - gsBValue
+  - normalGrid
+  - gsDensity
+  - gsPosterior
+  - gsPOS
+  - gsPP
+  - gsCPOS
+  - gsPI
+- title: Sample Size Adaption
+  contents:
+  - ssrCP
+  - condPower
+  - Power.ssrCP
+  - z2Fisher
+  - z2Z
+  - z2NC
+- title: Single Arm Binomial Design
+  contents:
+  - gsBinomialExact
+  - plot.gsBinomialExact
+  - binomialSPRT
+  - plot.binomialSPRT
+  - nBinomial1Sample
+- title: Input Checking
+  contents:
+  - isInteger
+  - checkLengths
+  - checkRange
+  - checkScalar
+  - checkVector
+- title: Testing multiple hypotheses
+  contents:
+  - hGraph
+- title: Summary tables
+  contents:
+  - as_table
+  - as_table.gsBinomialExact
+  - as_gt
+  - as_gt.gsBinomialExactTable
+
+articles:
+  - title: "Designing for time-to-event endpoints"
+    desc: >
+      These vignettes provide an introduction to designing group sequential trials with
+      time-to-event endpoints using gsDesign.
+    contents:
+      - SurvivalOverview
+      - toInteger
+      - gsSurvBasicExamples
+      - PoissonMixtureModel
+  - title: "Other"
+    desc: >
+        Other vignettes.
+    contents:
+      - GentleIntroductionToGSD
+      - gsDesignPackageOverview
+      - SpendingFunctionOverview
+      - nNormal
+      - hGraph
+      - GraphicalMultiplicity
+      - VaccineEfficacy
+      - binomialSPRTExample
